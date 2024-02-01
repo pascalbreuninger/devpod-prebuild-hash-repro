@@ -1,0 +1,12 @@
+{
+  "name": "DevPod Monolith",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "forwardPorts": [8080],
+  "features": {
+    "ghcr.io/jungaretti/features/make:1": {},
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  }
+}
